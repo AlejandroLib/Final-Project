@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;  
+}
+
+h1, h2, h3, h4, h5, h6, span {
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+}
+
+p{
+    color: #242424;
+    line-height: 1.25;
+    font-size: 16px;}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+    /* NAVIGATION BAR */
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.nav__container {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.item__logo--img, .item__logo--text {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    width: 30px;
+    margin:0 10px;
+    list-style: none;
+    size: 24px;
+    font-size: 24px;
+}
+
+
+
+.nav__link--anchor {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: flex-end;
+     padding: 0 10px;
+}
+
+.btn {
+   
+    
+}
