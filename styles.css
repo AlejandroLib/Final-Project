@@ -2,61 +2,45 @@
 *{
     padding: 0px;
     margin: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;  
 }
-
-h1, h2, h3, h4, h5, h6, span {
-    color: #242424;
-    text-align: center;
-    line-height: 1.25;
-}
-
-p{
-    color: #242424;
-    line-height: 1.25;
-    font-size: 16px;}
-
-h1 {
-    font-size: 100px;
-    font-weight: 700;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;
-}
-
-li {
-    list-style-type: none;
-}
-
-
-    /* NAVIGATION BAR */
 
 .row {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
-
-
 .nav__container {
     height: 100px;
     width: 100%;
-    max-width: 1000px;
     display: flex;
     justify-content: space-between;
-    
     padding: 0 12px;
     margin: 0 auto;
 }
 
+.nav__link--anchor {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #242424;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: flex-end;
+     padding: 0 10px;
+}
 
-
-
-
+.nav__link--anchor-primary {
+    background-color: #7342d6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
 
 .item__logo--img, .item__logo--text {
     display: flex;
@@ -71,13 +55,64 @@ li {
 
 
 
-.nav__link--anchor {
-    margin: 0 10px;
-    text-decoration: none;
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding:24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+.subheader {
     color: #242424;
+    font-size: 20px;
+}
+
+button {
+    background-color: #7342d6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 22px;
     font-size: 16px;
     font-weight: 500;
-    justify-content: flex-end;
-     padding: 0 10px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    color: #242424;
+    margin: 24px 0;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header__content--wrapper {
+   width: 40%;
+}
+
+.templates__img--wrapper {
+   width: 60%;
+}
+
+img {
+    width: 100%;
 }
 
