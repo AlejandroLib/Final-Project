@@ -50,19 +50,14 @@ nav {
 /*HEADER*/
 
 
-header {
-    background-color: #eadcff;
-    height: calc(100vh - 70px);
-    padding:24px;
+.row--header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    width: 100%;
-    max-width: 1000px;
 }
-.subheader {
-    color: #242424;
-    font-size: 20px;
-}
+
 
 button {
     background-color: #7342d6;
@@ -88,6 +83,7 @@ p {
     font-weight: 400;
     color: #242424;
     margin: 24px 0;
+    font-size: 20px;
 }
 ul {
     display: flex;
@@ -113,20 +109,26 @@ img {
     width: 100%;
 }
 
+.features__container {
+    padding: 80px 0;
+
+}
+
 .row--features {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    align-items: center;
 }
 
 .features__subheader {
+    width: 100%;
+    max-width: 1200px;
     color: #7342d6;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 12px;
     align-items: center;
-    display: flex;
+    margin: center;
 }
 
 .features__description {
@@ -135,12 +137,26 @@ img {
     font-weight: 400;
     margin-bottom: 24px;
 }
-.features__container {
-    width: 100%;
+
+
+.services__wrapper {
+    width:100%;
     max-width: 1200px;
-    padding: 80px 0;
     margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: calc(100%/3);
+    display: flex;
+}
+.service__img--logo {
+    width: 30px;
+    margin-bottom: 12px;
+}
+
+.service__description {
+   display: flex;
+   flex-direction: column;
 }
