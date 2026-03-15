@@ -46,6 +46,10 @@ nav {
     cursor: pointer;
 }
 
+.purple {
+    color: #7342d6;
+}
+
 
 /*HEADER*/
 
@@ -95,6 +99,8 @@ li {
     list-style-type: none;
 }
 
+
+
 .header__content--wrapper {
    width: 40%;
    display: flex;
@@ -118,11 +124,13 @@ img {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features__subheader {
-    width: 100%;
-    max-width: 1200px;
+    
     color: #7342d6;
     font-size: 16px;
     font-weight: 500;
