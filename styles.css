@@ -61,7 +61,10 @@ nav {
     display: flex;
     align-items: center;
 }
+.templates__email{
+    display: flex;
 
+}
 
 .templates__button {
     background-color: #7342d6;
@@ -123,9 +126,23 @@ li {
         flex-direction: column;
     }
 
+    .row--features {
 
-    
-    
+        flex-direction: column;
+    }
+    .services__wrapper {
+        
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row--quality {
+        width: 100%;
+        flex-direction: column;
+    }
+    .row--steps {
+        flex-direction: column;
+    }
 }
 
 .header__content--wrapper {
@@ -217,7 +234,6 @@ img {
 
 .quality__content--wrapper {
     width: 50%;
-    display: flex;
     flex-direction: column;
 }
 
@@ -226,7 +242,15 @@ img {
 }
 
 .quality__button {
-    padding: 8px 16px;
+
+    background-color: #7342d6;
+    color: white;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /*STEPS*/
@@ -440,18 +464,38 @@ img {
     flex-direction: column;
     width: calc(100%/5);
     align-items: center;
-    text-decoration: none;
     color: #f3e8ff;
     
-
 }
-.footer__logo--name {
+.footer__link {
+    color: #f3e8ff;
+    text-decoration: none;
+}
+
+.footer__info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:50% ;
+
+}
+
+.footer__subheader{
+padding: 16px 48px;
+}
+
+
+.footer__item--logo, .footer__item--text {
+    width: 30px;
     margin:0 10px;
+    display: inline;
     size: 24px;
     font-size: 24px;
-   
+    color: #f3e8ff;
+}
+
+.footer__item--description {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f3e8ff;
 }
