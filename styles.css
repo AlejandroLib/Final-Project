@@ -46,6 +46,17 @@ nav {
     cursor: pointer;
 }
 
+.nav__link--anchor-primary:hover {
+    background-color: #6c8ceb;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 .purple {
     color: #7342d6;
 }
@@ -59,9 +70,13 @@ nav {
 
 }
 
+.btn__menu:hover {
+    color: #6c8ceb;
+}
+
 .menu__backdrop  {
-    position: absolute;
-    background-color:#242424;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5)    ;
     top: 0;
     left: 0;
     right: 0;
@@ -139,6 +154,17 @@ nav {
 
 .templates__button {
     background-color: #7342d6;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.templates__button:hover {
+    background-color: #6c8ceb;
     color: white;
     border: none;
     padding: 8px 8px;
@@ -367,6 +393,18 @@ img {
     cursor: pointer;
 }
 
+.quality__button:hover {
+
+    background-color: #9c5eec;
+    color: rgb(238, 231, 247);
+    border: none;
+    padding: 8px 22px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
 /*STEPS*/
 .steps__container {
     padding: 80px 0;
@@ -471,6 +509,18 @@ img {
     font-weight: 500;
     cursor: pointer;
     margin: 36px 0;
+}
+
+.value__btn:hover {
+
+    background-color: #9c5eec;
+    color: rgb(238, 231, 247);
+    border: none;
+    padding: 8px 22px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 
@@ -681,7 +731,11 @@ img {
     list-style: none;
     margin: 36px 32px;
 }
+
+
 /*GET STARTED*/
+
+
 .get-started__container {
     
     background-color: #7342d6;
@@ -701,7 +755,6 @@ img {
 }
 .get-started__wrapper {
     display: flex;
-   
     justify-content: space-between;
 }
 
@@ -718,11 +771,23 @@ img {
     gap: 22px;
 }
 
+
 .get-started__button {
-    display: flex;
-    justify-content: flex-end;
     background-color: #ee414a;
-   
+    color: #f1eff5;
+    border: none;
+    padding: 36px 22px;
+    border-radius: 48px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 48px 16px;
+    gap: 22px;
+    width: 50%;
+}
+
+.get-started__button:hover {
+    background-color: #f16e79;
     color: #f1eff5;
     border: none;
     padding: 36px 22px;
@@ -737,9 +802,9 @@ img {
 
 .contact-us__button {
     width: 50%;
-    background-color: #f3e8ff;
-    color: #7342d6;
-    border: none;
+    background-color: #9376cc;
+    color: #f3e8ff;
+    border-width: .015em;
     padding: 36px 22px;
     border-radius: 48px;
     font-size: 24px;
@@ -748,7 +813,17 @@ img {
     margin: 48px 32px;
 }
 
-
+.contact-us__button:hover {
+    background-color: #f3e8ff;
+    color: #7342d6;
+    border: 1.25em; solid #7342d6;
+    padding: 36px 22px;
+    border-radius: 48px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 48px 32px;
+}
 
 /*FOOTER*/
 
