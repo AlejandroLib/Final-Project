@@ -142,11 +142,11 @@ nav {
     color: #dfd8ee;
     border: none;
     padding: 8px 22px;
-    border-radius: 22px;
+    border-radius: 48px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    margin: 36px 32px;
+    margin: 36px 0;
 }
 .header__email{
     width: 100%;
@@ -235,7 +235,7 @@ li {
         flex-direction: column;
     }
     .header__content--wrapper, .templates__img--wrapper {
-        width: 100%;
+        width: 75%;
     }
     h1 {
         font-size: 48px;
@@ -250,8 +250,14 @@ li {
 
     .header__email {
         flex-direction: column;
-
+        height: auto;
     
+    }
+
+    .header__email--input {
+        width: 100%;
+        margin-bottom: 12px;
+        position: static;
     }
 
     .row--features {
@@ -283,6 +289,11 @@ li {
     }
 
     .row--values {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .values__list {
         flex-direction: column;
         align-items: center;
     }
@@ -355,6 +366,8 @@ li {
         flex-direction: column;
         align-items: center;
     }
+
+    
 }
 
 .header__content--wrapper {
@@ -454,6 +467,7 @@ img {
 
 .quality__img--wrapper {
     width: 60%;
+    padding: 24px 0;
 }
 
 .quality__button {
@@ -494,6 +508,7 @@ img {
 
 .steps__img--wrapper {
     width: 50%;
+    padding: 24px 12px;
 }
 
 .steps__wrapper {
@@ -633,9 +648,9 @@ img {
     flex-wrap: wrap;
 }
 .plan__container {
-    width: calc(100%/3);
+    width: 100%;
     display: flex;
-   gap: calc(100%/3);
+   gap: 24px
     
     
 }
